@@ -24,11 +24,11 @@ ogImage:
 
  ### // Example  
 
-![](../public/assets/blog/thm-blue/thm-blue-nmap-command.png)  
+![](thm-blue/thm-blue-nmap-command.png)  
 
  ### // Results  
 
-![](../public/assets/blog/thm-blue/thm-blue-nmap-results.png)
+![](thm-blue/thm-blue-nmap-results.png)
 
 > Host is vulnerable to Remote Code Execution vulnerability in Microsoft SMBv1 servers (ms17-010)  
 
@@ -44,13 +44,13 @@ https://www.exploit-db.com/exploits/41891
 
  ### // Metasploit go brrrr...  
 
- ![](../public/assets/blog/thm-blue/thm-blue-msfc-reverse-tcp-shell-command.png)  
+ ![](thm-blue/thm-blue-msfc-reverse-tcp-shell-command.png)  
 
  > Options have been set and exploit is running  
 
   // Results  
 
-  ![](../public/assets/blog/thm-blue/thm-blue-eternal-blue-exploit-success.png)  
+  ![](thm-blue/thm-blue-eternal-blue-exploit-success.png)  
 
   > Exploit initially failed, now we have a basic shell  
 
@@ -60,14 +60,14 @@ https://www.exploit-db.com/exploits/41891
 
 > Ctrl-z does the same thing  
 
- ![](../public/assets/blog/thm-blue/thm-blue-background-example.png)
+ ![](thm-blue/thm-blue-background-example.png)
 
  ## Post-Exploit > Upgrade the reverse TCP shell to a meterpreter shell  
 
  ### // Search for the command   
      search upgrade shell   
 
- ![](../public/assets/blog/thm-blue/thm-blue-search-upgrade-shell-1.png)  
+ ![](thm-blue/thm-blue-search-upgrade-shell-1.png)  
 
  ### // Select the script for use  
 
@@ -75,11 +75,11 @@ https://www.exploit-db.com/exploits/41891
 
 > Alternative: "use 4" (4th result in searches)
 
- ![](../public/assets/blog/thm-blue/thm-blue-run-upgrade-shell.png)  
+ ![](thm-blue/thm-blue-run-upgrade-shell.png)  
 
  ### // Set options for shell_to_meterpreter - The script needs the session ID of our reverse TCP shell  
 
- ![](../public/assets/blog/thm-blue/thm-upgrade-shell-options.png)  
+ ![](thm-blue/thm-upgrade-shell-options.png)  
 
  > Example of setting options and using "sessions" to display sessions  
 
