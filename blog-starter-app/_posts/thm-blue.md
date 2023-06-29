@@ -12,7 +12,7 @@ ogImage:
 
 # THM Eternal Blue  
 
-![](../public/assets/blog/hello-world/scraps.jpg)
+![](scraps.jpg)
 
 ## Recon  
 
