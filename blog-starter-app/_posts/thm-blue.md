@@ -12,6 +12,8 @@ ogImage:
 
 # THM Eternal Blue  
 
+![](../public/assets/blog/hello-world/scraps.jpg)
+
 ## Recon  
 
  ### // Set a terminal environmental variable for target IP address  
